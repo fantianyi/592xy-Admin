@@ -1,0 +1,84 @@
+/*  */
+body {width:100%; margin:0 auto; background:#fff; font-family:"Microsoft YaHei","Arial","sans-serif";color:#2e2e2e;font-size:14px;}
+a,a:link,a:active{color:#2e2e2e;font-size:12px;}
+*{border:0;margin:0;padding:0}
+.clearfix {*zoom: 1; } 
+.clearfix:before, .clearfix:after { display: table; line-height: 0; content: ""; } 
+.clearfix:after { clear: both; } 
+h1,h2,h3,h4,h5,h6{font-weight:normal;}
+a {text-decoration:none;}
+img {border-width:0px;}
+ul li{list-style:none;}
+.fl{float:left;}
+.fr{float:right;}
+
+
+.top-con{width:100%;height:551px;background:url(images/top-bg.jpg) center 0 no-repeat;position:relative;top:0;left:0}
+.all-btn{width:483px;height:81px;position:absolute;top:0;right:80px;background:#fff;}
+.all-btn a{display:inline-block;width:161px;height:81px;line-height:81px;font-size:18px;text-align:center;color:#fff;float:left;background:url(images/btn.jpg) no-repeat;}
+.all-btn a:hover{background:url(images/btn-hover.jpg) no-repeat;}
+
+.activity{width:100%;height:625px;background:#1ca8dd;}
+.activity-con{width:1065px;margin:0 auto;padding-top:22px;}
+.activity-con p.tit{height:50px;margin-left:0px;padding-left:0px;background:url(images/jc-hd.jpg) 0px 7px no-repeat;color:#fff;font-size:60px;text-align:center;}
+.all-img{margin-top:43px;}
+.all-img img{vertical-align:middle;}
+.all-img .first{width:328px;height:488px;background:#fff;float:left;margin-right:20px;}
+.all-img .first img{width:320px; height:480px; margin:4px}
+.all-img .second{width:328px;height:488px;background:#fff;float:left;margin-right:20px;}
+.all-img .second img{width:320px; height:480px; margin:4px}
+.all-img .third{width:328px;height:488px;background:#fff;float:left;margin-right:20px;}
+.all-img .third img{width:320px; height:480px; margin:4px}
+
+.game{width:100%;height:80px;background:#f0ad2a;}
+.game-con{width:1028px;margin:0 auto;padding-top:25px;}
+.game-con p.tit{width:345px;height:34px;background:url(images/game-tit.jpg) no-repeat;margin-left:64px;}
+.game-list{margin-left:-6px;margin-top:40px;}
+.game-list li{width:166px;height:242px;background:url(images/game-list.jpg) no-repeat;margin-left:6px;float:left;margin-bottom:7px;}
+
+.img1{width:64px;height:64px;padding-top:26px;margin-left:49px;}
+.text{text-align:center;color:#fff;margin-top:10px;}
+.img2{width:93px;height:93px;background:url(images/code-bg.jpg) no-repeat;margin:7px 0 0 37px;}
+.img2 img{width:87px;height:87px;vertical-align:middle;margin:3px}
+
+.footer{background:#222b46;text-align:center;padding-top:5px;}
+
+
+
+.main{
+	background:#1ca8dd;
+}
+.main ul{
+	margin-top:0px;
+}
+.main li{
+	padding:28px 15px;
+	position:relative;
+	border-bottom:1px solid #0acbf3;
+}
+.main li dl{
+	margin-left:7px;
+	font-size:30px;
+	color:#fff;
+}
+.main li dl dt{
+	width:175px;
+	height:175px;
+	background:#0acbf3;
+	border:4px solid #0acbf3;
+	border-radius:13px;
+	float:left;
+	margin:0px 20px 0px 15px;
+}
+.main li dl img{
+	width:175px;
+	height:175px;
+	border-radius:18px;
+	box-shadow: 0 0 14px #fff;
+}
+.main li dl dd{
+	margin-left:75px;
+}
+.main li dl dd p{
+	line-height:45px;
+}

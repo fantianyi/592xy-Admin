@@ -1,0 +1,8 @@
+name: 592xy
+version: 20160606
+ 
+
+handle:
+  - hostaccess:  if(path ~ "Admin/App") deny "all"
+  - hostaccess:  if(path ~ "Admin/ThinkPHP") deny "all"
+  - rewrite: if(!is_dir() && !is_file() && path~"^Admin/(.*)$") goto "Admin/index.php/$1"
